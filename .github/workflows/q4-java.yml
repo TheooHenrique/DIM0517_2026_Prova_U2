@@ -25,6 +25,5 @@ jobs:
 
       - name: Construindo e rodando a imagem Docker
         run: |
-          cd java
           docker build -t aplicacao-java:v.1 .
           docker run -d -p 8080:5000 aplicacao-java:v.1
