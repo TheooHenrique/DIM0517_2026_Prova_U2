@@ -5,8 +5,8 @@ on:
     branch: 'feature/**'
     paths:
       - 'src/**'
-      - Dockerfile
-      - pom.xml
+      - '**/Dockerfile'
+      - '**/pom.xml'
     
 jobs:
   build:

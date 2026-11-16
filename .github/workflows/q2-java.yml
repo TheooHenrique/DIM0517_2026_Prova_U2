@@ -3,6 +3,8 @@ name: Java
 on:
   pull_request:
     branch: develop
+    types:
+      - closed
 
 jobs:
   build:
