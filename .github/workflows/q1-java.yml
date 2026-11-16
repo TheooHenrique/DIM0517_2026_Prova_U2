@@ -4,9 +4,9 @@ on:
   push:
     branch: 'feature/**'
     paths:
-      - 'src/**'
-      - Dockerfile
-      - pom.xml
+      - '**/src/**'
+      - '**/Dockerfile'
+      - '**/pom.xml'
     
 jobs:
   build:
