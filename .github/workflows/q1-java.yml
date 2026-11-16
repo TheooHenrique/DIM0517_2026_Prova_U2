@@ -2,11 +2,12 @@ name: Java
 
 on: 
   push:
-    branch: 'feature/**'
     paths:
-      - 'src/**'
-      - Dockerfile
-      - pom.xml
+      - '**/src/**'
+      - '**/Dockerfile'
+      - '**/pom.xml'
+    branch: 'feature/**'
+    
     
 jobs:
   build:
