@@ -3,7 +3,7 @@ name: Java
 on: 
   pull_request:
     types:
-      - assigned
+      - closed
     branches:
       - develop
 
